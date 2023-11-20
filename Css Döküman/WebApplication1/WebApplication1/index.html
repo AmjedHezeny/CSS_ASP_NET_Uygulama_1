@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--
+        CSS
+        -----------------------
+        CSS, Cascading Style Sheet kelimelerinin baş harflerinden oluşan bir kısaltmadır. Türkçe karşlığı Basamaklı Stil Şablonu anlamına gelmektedir.
+
+        StyleSheet dosyaları HTML sayfası içerisinde barındırılan elementlerin görsel olarak şekillendirilmesini sağlayan önemli bir yapıdır.
+
+        StyleSheet dosyaları *.css uzantısındadır. Bu dosya içerisinde birden fazla stil tanımlanabilir.
+
+        Bir CSS kodu iki temel bileşenden oluşur. Biri element ve stilleri birbirinden ayıran bir seçim, diğeri ise bir ya da daha fazla özelliği bildirdiğimiz ifade bölümü.
+
+        Yazım Kuralı:
+        <element>{
+            <ozellik>: <deger>;
+            ....
+        }
+
+        StyleSheet dosyaları içerisinde elementlere birden farklı yöntem ile erişim sağlayabiliriz. Bunlar:
+        - Class bilgisi ile erişim: Elemente tanımlanan isimden önce .(nokta) ifadesi ile tanımlama yapılır.
+        - ID bilgisi ile erişim: Elemente tanımlanan isimden önce # ifadesi ile tanımlama yapılır.
+        - Tag bilgisi ile erişim.
+        - Sıralı tanımlama bilgisi ile erişim.
+
+        HTML sayfaları içerisinde StyleSheet tanımlamanın 2 farklı yöntem vardır.
+        1- <head>...</head> tagları arasında <style>....</style> tagları açarak bu açılan tagın içerisinde yazılan stylesheet komutları sayfa içerisinde aktif olarak çalışmaktadır.
+        2- Proje içerisinde .css uzantılı bir dosya oluşturup, <head>...</head> taglarının arasında bu .css dosyasının yolunu tanımlayabilirsiniz. Tanımladığınız dosya HTML sayfası içerisinde aktif olacaktır.
+
+
+        1.Yöntem
+    -->
+    <style>
+        /* yorum */
+        /*
+            StyleSheet dosyaları içerisinde yorum satırları yukarıda belirtilen karakterler arasında yazılmalıdır.
+        */
+
+        /*
+            StyleSheet tanımlama yöntemleri:
+            1- Class bilgisi ile erişim
+            Örnek:
+            .<classAdi>{
+                <ozellik>:<deger>;
+                ...
+            }
+
+            2- ID bilgisi ile erişim
+            Örnek:
+            #<IDAdi>{
+                <ozellik>:<deger>;
+                ...
+            }
+
+            3- Tag bilgisi ile erişim
+            Örnek:
+            <TagAdi>{
+                <ozellik>: <deger>;
+                ...
+            }
+
+            4- Sıralı tanımlama bilgisi ile erişim
+            Örnek:
+            <TagBilgisi|ClassBilgisi|IDBilgisi> <TagBilgisi|ClassBilgisi|IDBilgisi> vs...{
+                <ozellik>: <deger>;
+                ...
+            }
+
+        */
+
+        .hosgeldiniz {
+        }
+
+        #IDbilgisi {
+        }
+
+        body {
+        }
+
+            body .hosgeldiniz {
+            }
+    </style>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="hosgeldiniz" id="IDbilgisi">
+        CSS derslerine hoşgeldiniz
+    </div>
+
+    <a href="https://www.google.com/">Bağlantı Linki</a>
+    <a href="https://www.youtube.com/">Bağlantı Linki</a>
+    <a href="https://www.youtube.com/watch?v=XXxOKizvlzo">Bağlantı Linki</a>
+    <a href="https://www.youtube.com/watch?v=mT3WpKY0Jd8">Bağlantı Linki</a>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿/*
+    StyleSheet dosyası içerisinde kullanılan özelliklerden bazıları:
+    -----------------------------------------------------------
+    - background-color: arkaplan rengi tanımlaması yapar.
+    - background-image: arkaplan resmi tanımlaması yapar.
+    - background-repeat: arkaplan resmini tekrarlama yöntemini belirtir.
+    - background-position: arkaplan resmi pozisyonunu belirtir.
+    - color: yazı rengini belirtir.
+    - text-align: yazı hizalamasını belirtir.
+    - text-decoration: a taglarındaki altı çizili yazıyı biçimlendirir.
+    - text-transform: yazıları büyük veya küçük yazmamızı sağlar.
+    - text-indent: yazı önünde belirtilen uzunluk kadar boşluk bırakır.
+    - font-family: yazı tipini belirlememizi sağlar.
+    - font-size: yazı boyutunu belirler.
+    - font-style: yazı stilini belirler.
+    - font-weight: yazı kalınlığını belirtir.
+    - list-style-type: ul taglarında listelenen li taglarının önünde bulunan madde işaretlerinin stilini tanımlar.
+    - list-style-image: ul tagları içerisindeki li taglarının madde işareti yerine resim eklememizi sağlar.
+    - list-style-position: ul tagları içerisindeki li taglarının madde işaretinin liste içinde mi? yoksa liste dışında mı? olacağını belirtir.
+    - border: kenarlık belirtmemizi sağlar.
+    - border-radius: kenarlığa ovallik vermek için kullanılır.
+    - width: genişlik verir.
+    - min-width: minimum genişlik verir.
+    - max-width: maximum genişlik verir.
+    - height: yükseklik verir.
+    - min-height: minimum yükseklik verir.
+    - max-height: maximum yükseklik verir.
+    - margin: dış boşluk verir.
+    - padding: iç boşluk verir.
+    - visibilty: sayfa içerisinde gizlenmesini sağlar.
+    - display: elementin görünüm türünü belirtir.
+    - position: elementin pozisyonunu belirtmek için kullanılır.
+    - float: elementi hizalamak için kullanılır.
+    - opcity: bir resme saydamlık vermek için kullanılır.
+
+    a tagları için kullanılan özel ekler:
+    -------------------------------------
+    - a:link => normal link görünümünü ifade eder.
+    - a:active => Fare ile tıklandığındaki görünümünü ifade eder.
+
+    Genel olarak kullanılan özel ekler:
+    -------------------------------------
+    - <element>:hover => Fare ile üzerine gelindiğindeki görünümünü ifade eder.
+    - <element>:first-child => elementin içerisinde bulunan ilk elementi ifade eder.
+    - <element>:nth-child(x) => elementin içerisinde bulunan x değerindeki elementi ifade eder.
+    - <element>:last-child => elementin içerisinde bulunan son elementi ifade eder.
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: lightgray;
+    background-image: url(davidjones.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#IDbilgisi {
+    background-color: deepskyblue;
+    padding: 20px 50px;
+    margin: 50px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+    border: 2px solid deepskyblue;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+    a:hover {
+        background-color: deepskyblue;
+        color: white;
+    }
