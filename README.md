@@ -1,4 +1,4 @@
-# HTML Asp.Net web 🌟🌐 Web Tasarımında Temel CSS Bilgileri 📋🖥️
+# CSS Asp.Net web 🌟🌐 Web Tasarımında Temel CSS Bilgileri 📋🖥️
 
 * 🔍 Selektörler:
    - CSS'de öğeleri seçmek için selektörler kullanılır. Örneğin, p selektörü tüm paragraf öğelerini seçer.
